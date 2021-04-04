@@ -1,0 +1,13 @@
+{
+    "err": null,
+    "msg": "number of levels was updated successfully.",
+    "data": {
+        "numOfLevels": 7,
+        "_id": "5e5bb68ee6df225c414315be",
+        "name": "Grammar_LettersCapitalization",
+        "germanName": "Groß- und Kleinschreibung",
+        "price": 0.05,
+        "levelPrice": 0.01,
+        "__v": 0
+    }
+}

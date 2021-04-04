@@ -1,0 +1,53 @@
+{
+    "err": null,
+    "msg": "Instructions retrieved successfully.",
+    "data": [
+        {
+            "_id": "5e4a887272b38224272a1d52",
+            "Game": "Grammar_LettersCapitalization",
+            "Nomen": {
+                "_id": "5e4a887272b38224272a1d53",
+                "playerErrors": [
+                    {
+                        "_id": "5e4a887272b38224272a1d58",
+                        "error_type": "DET_NOUN",
+                        "Example": "2 Bienen, das Wasser, die Rose, der Laden, jede Dame",
+                        "Explanation": "Vor ein Nomen kann man einen Artikel oder eine Zahl sezten.",
+                        "wav": "DET_NOUN.wav"
+                    },
+                    {
+                        "_id": "5e4a887272b38224272a1d57",
+                        "error_type": "FIRST",
+                        "Example": "Das kleine Haus.",
+                        "Explanation": "Am Anfang vom Satz schreibt man immer groß.",
+                        "wav": "FIRST.wav"
+                    },
+                    {
+                        "_id": "5e4a887272b38224272a1d56",
+                        "error_type": "ADP_NOUN",
+                        "Example": "mit Lena, am Wasser, im Haus, zum Glück = zu dem Glück",
+                        "Explanation": "Nach Präpositionen stehen oft Nomen. Manchmal ist ein Artikel in der Präposition versteckt wie in 'zum', was eigentlich 'zu dem' heißt.",
+                        "wav": "ADP_NOUN.wav"
+                    },
+                    {
+                        "_id": "5e4a887272b38224272a1d55",
+                        "error_type": "ADJ_NOUN",
+                        "Example": "Dort ist ein kleines Haus.",
+                        "Explanation": "Manchmal schiebt sich ein Adjektiv zwischen den Artikel und das Nomen.",
+                        "wav": "ADJ_NOUN.wav"
+                    },
+                    {
+                        "_id": "5e4a887272b38224272a1d54",
+                        "error_type": "ADV_VERB_NOUN",
+                        "Example": "... auch Wale, oder wie Fische, wieder Ruhe, dort liegen Rehe ...",
+                        "Explanation": "Manchmal kann man den Artikel weg lassen aber man schreibt das Nomen trotzdem groß.",
+                        "wav": "ADV_VERB_NOUN.wav"
+                    }
+                ],
+                "Instruction": "Nomen erkennt man daran, dass man sie zählen kann oder einen Artikel davor setzen kann!",
+                "wav": "noun_new.wav"
+            },
+            "__v": 0
+        }
+    ]
+}
